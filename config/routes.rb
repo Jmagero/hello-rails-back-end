@@ -5,5 +5,5 @@ Rails.application.routes.draw do
       get 'random-greeting', to: 'messages#hello'
     end
   end
-  root 'messages#hello'
+  root 'main#index'
 end
