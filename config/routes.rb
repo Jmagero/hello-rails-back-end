@@ -5,7 +5,4 @@ Rails.application.routes.draw do
       get 'random-greeting', to: 'messages#hello'
     end
   end
-  get '*page', to: 'static#index', constraints: ->(req) do
-    !req.xhr? && req.format.html?
-  end
 end
