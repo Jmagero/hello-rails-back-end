@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Message.destroy_all
 
-Message.create([{title: 'Good morning'},{title: 'Good Afternoo'},{title: 'Good Evening'},
-    {title: 'Hello'}, {title: 'Hi'}])
+Message.create([{title: 'What\s app'},{title: 'Hello there'},{title: 'How are you?'},
+    {title: 'Have a nice day'}, {title: 'Gread day'}])
