@@ -8,5 +8,5 @@
 
 Message.destroy_all
 
-Message.create([{title: 'What\s app'},{title: 'Hello there'},{title: 'How are you?'},
-    {title: 'Have a nice day'}, {title: 'Gread day'}])
+Message.create([{ title: 'What\s app' }, { title: 'Hello there' }, { title: 'How are you?' },
+                { title: 'Have a nice day' }, { title: 'Gread day' }])
