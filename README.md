@@ -45,6 +45,7 @@ bundle install
 ``` bash
 rails db:create
 rails db:migrate
+rails db:seed to seed the database
 ```
 
 ### Running locally
@@ -55,7 +56,7 @@ rails db:migrate
 rails server
 ```
 
-2. Go to the endpoint `http://localhost:3000/api/v1/greetings` to access the API.
+2. Go to the endpoint `http://localhost:3000/api/v1/greeting` to access the API.
 
 ## Authors
 
