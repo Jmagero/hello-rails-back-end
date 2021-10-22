@@ -16,7 +16,7 @@ This Ruby on Rails, API-only, back-end app is consumed by the React front-end ap
 
 You can access a preview of the API at [this enpoint](https://shielded-waters-51364.herokuapp.com/api/v1/random-greeting).
 
-You can preview the front-end app [here](https://hello-react-front-end-x.netlify.app/).
+You can preview the front-end app [here](https://goofy-wright-403bb0.netlify.app/).
 
 ## Getting Started
 
