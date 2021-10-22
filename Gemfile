@@ -52,3 +52,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'dotenv-rails'
 gem 'tzinfo-data'
+gem 'rack-cors', :require => 'rack/cors'
